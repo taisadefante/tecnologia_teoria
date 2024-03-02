@@ -102,9 +102,13 @@ menu > ul > li > a {
 }
 
 /*****************************link******************************/
+.link {
+  text-align: center;
+}
 
 .fa-brands {
-  font-size: 100px;
+  font-size: 50px;
+  color: blue;
 }
 
 h2 {
@@ -122,23 +126,77 @@ a i:hover {
   color: white;
 }
 
+/*****************************home******************************/
+
+.secao-com-texto {
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+.secao-com-texto img {
+  width: 250px;
+  height: 230px;
+  border-radius: 20px;
+}
+
+.secao-com-texto h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.secao-com-texto p {
+  font-size: 18px;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.secao-com-texto.tecnologia p {
+  font-size: 28px;
+  width: 480px;
+}
+
 /*****************************footer******************************/
 footer {
   text-align: center;
+  margin-top: 10px;
 }
 footer p {
   text-align: center;
-  padding: 10px;
 }
 
 footer .fa-brands {
   font-size: 20px;
   padding: 10px;
+  color: white;
 }
 
 footer a i:hover {
   color: blue;
 }
+
+/****************************************/
+
+#backToTopButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 2.5rem;
+  width: 8rem;
+  height: 8rem;
+}
+
+#backToTopButton.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/****************************************/
 
 @media screen and (min-width: 0px) and (max-width: 440px) {
   .btn-contato {

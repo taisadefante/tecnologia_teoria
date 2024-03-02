@@ -1,11 +1,249 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./html.css" />
+    <link rel="stylesheet" href="../../../css/diversos.css" />
+    <link rel="stylesheet" href="../../../css/responsive.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Tais Defante</title>
   </head>
-  <body>
-    dfdsf
+  <body onresize="mudouTamanho()">
+    <!-------------------------MENU--------------------------------------------->
+
+    <header id="header-id">
+      <div class="interface">
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+        <menu class="menu-desktop" id="itens">
+          <ul>
+            <li><a class="link-header" href="../../index.html">Home</a></li>
+            <li>
+              <a class="link-header" href="./front-end.html">Front-End</a>
+            </li>
+            <li>
+              <a class="link-header" href="../back-end/back-end.html"
+                >Back-End</a
+              >
+            </li>
+            <li>
+              <a class="link-header" href="../projetos/projetos.html"
+                >Projetos</a
+              >
+            </li>
+          </ul>
+        </menu>
+
+        <div class="btn-contato">
+          <button><a class="a-contato" href="#contact">Contato</a></button>
+        </div>
+      </div>
+    </header>
+
+    <!-----------------------------------------Link-------------------------------->
+    <section class="link">
+      <hr />
+      <h2>FRONT END</h2>
+      <a href="./html.html"><i class="fa-brands fa-html5"></i></a>
+      <a href="../css/css.html"><i class="fa-brands fa-css3-alt"></i></a>
+      <a href="../js/js.html"><i class="fa-brands fa-js"></i></a>
+      <a href="../react/react.html"><i class="fa-brands fa-react"></i></a>
+      <a href="../typescript/typescript.html"><i>TYPESCRIPT</i></a>
+      <a href="../bootstrap/bootstrap.html"
+        ><i class="fa-brands fa-bootstrap"></i
+      ></a>
+      <a href="../vite/vite.html"><i>VITE</i></a>
+
+      <hr />
+    </section>
+
+    <!-----------------------------------------ESTRUTURA-------------------------------->
+    <section class="link">
+      <hr />
+      <a href="./html/html.html"><i class="fa-brands fa-html5"></i></a>
+
+      <a href="./html/html.html"><i class=""></i></a>
+    </section>
+
+    <!-----------------------------------------home-------------------------------->
+    <section class="link-home">
+      <div>
+        <a href="#audio">AUDIO</a>
+        <a href="#estrutura">ESTRUTURA</a>
+        <a href="#background">BACKGROUND</a>
+        <a href="#container">BOX / CONTAINER</a>
+        <a href="#botao">BOTÃO</a>
+        <a href="#formulario">FORMULARIO</a>
+        <a href="#fontes">FONTES</a>
+        <a href="#imagem">IMAGEM</a>
+        <a href="#icon">ICON</a>
+        <a href="#link">LINK</a>
+        <a href="#listas">LISTAS</a>
+        <a href="#menu">MENU</a>
+        <a href="#paragrafo">PARAFRAFO - P</a>
+        <a href="#rodape">RODAPE / FOOTER</a>
+        <a href="#tabelas">TABELAS</a>
+        <a href="#titulo">TITULO - H</a>
+        <a href="#video">VIDEO</a>
+      </div>
+    </section>
+    <hr />
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="audio">
+      <h2>AUDIO</h2>
+    </section>
+
+    <!-----------------------------------------estrutura-------------------------------->
+    <section id="estrutura">
+      <h2>ESTRUTURA</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="background">
+      <h2>BACKGROUND</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="box-container">
+      <h2>BOX / CONTAINER</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="botao">
+      <h2>BOTÃO</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="formulario">
+      <h2>FORMULÁRIO</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="fontes">
+      <h2>FONTES</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="imagem">
+      <h2>IMAGEM</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="icon">
+      <h2>ICON</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="link">
+      <h2>LINK</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="listas">
+      <h2>LISTAS</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="menu">
+      <h2>MENU / NAV</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="paragrafo">
+      <h2>PARAGRAFO / P</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="titulo">
+      <h2>TITULO / H</h2>
+    </section>
+
+    <!-----------------------------------------AUDIO-------------------------------->
+    <section id="video">
+      <h2>VIDEO</h2>
+    </section>
+
+    <hr />
+    <!-----------------------------------------footer-------------------------------->
+
+    <footer>
+      <p>Desenvolvido por Taís Defante</p>
+      <a href="https://github.com/taisadefante"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+
+      <a href="https://www.linkedin.com/in/tais-defante/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+    </footer>
+
+    <!-------------------------------------------------------------->
+
+    <a id="backToTopButton" class="" href="#header-id">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="70"
+        height="70"
+        viewBox="0 0 24 24"
+        style="fill: blue"
+      >
+        <path
+          d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm7-14 5 5h-4v5h-2v-5H7l5-5z"
+        ></path>
+      </svg>
+    </a>
   </body>
+
+  <script src="./script.js" defer></script>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == "block") {
+        itens.style.display = "none";
+      } else {
+        itens.style.display = "block";
+      }
+    }
+  </script>
+
+  <script src="./script.js" defer></script>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == "block") {
+        itens.style.display = "none";
+      } else {
+        itens.style.display = "block";
+      }
+    }
+  </script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+    integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
 </html>

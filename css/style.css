@@ -1,0 +1,177 @@
+/***************************home*************************/
+.home {
+  background: url(../img/tecnologia.jpg) center center no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.link-home {
+  display: inline-block;
+}
+
+/*****************************link-home******************************/
+
+.link-home {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 30%;
+}
+
+.link-home a {
+  color: blue;
+  padding: 20px;
+  border: solid white 4px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.link-home a:hover {
+  color: white;
+  border: solid blue 4px;
+}
+
+/*****************************tecnologia******************************/
+
+.secao-com-texto {
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+.secao-com-texto img {
+  width: 170px;
+  height: 170px;
+  border-radius: 20px;
+}
+
+.secao-com-texto h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.secao-com-texto p {
+  font-size: 18px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.secao-com-texto.tecnologia p {
+  font-size: 28px;
+  width: 480px;
+}
+
+/*****************************CONTATO******************************/
+
+.container {
+  max-width: 960px;
+  margin: 0 auto; /*centralizar*/
+  padding: 0 2%; /*espaçamento entre eles*/
+}
+
+.clear {
+  clear: both;
+}
+
+.w50 {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.w100 {
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+}
+
+/*estilo proprio*/
+
+h2 {
+  text-align: center;
+  color: blue;
+  padding: 10px 0;
+  font-size: 30px;
+  margin-top: 40px;
+  text-transform: uppercase; /*deixar maiusculo*/
+}
+
+p {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  margin: 8px 0;
+  color: #0e0c0c;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding-left: 8px;
+  height: 40px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-group input[type="submit"] {
+  color: blue;
+  padding: 20px;
+  border: solid white 4px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.form-group textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.button_contato {
+  color: blue;
+  padding: 20px 30px;
+  border: solid white 4px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.button_contato:hover {
+  border: solid blue 4px;
+}
+
+.contato_button {
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 440px) {
+  .btn-contato {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  i#burguer {
+    display: none;
+  }
+
+  menu {
+    display: block;
+  }
+
+  menu > ul {
+    display: inline-block;
+    align-items: center;
+  }
+  menu > ul > li {
+    display: inline-block;
+  }
+}
+
+/***********************************************************/

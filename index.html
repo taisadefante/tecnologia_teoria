@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="stylesheet" href="./css/diversos.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
 
     <link
       rel="stylesheet"
@@ -67,7 +70,8 @@
     <section class="home" id="home">
       <div class="home-div"></div>
     </section>
-    <!-----------------------------------------Link-------------------------------->
+
+    <!-----------------------------------------home-------------------------------->
     <section class="link-home">
       <div>
         <a href="./pages/front-end/front-end.html">FRONT END</a>
@@ -95,9 +99,56 @@
       </div>
     </section>
 
+    <!-----------------------------------------contato-------------------------------->
     <hr />
+    <section id="section_contato">
+      <div class="container">
+        <h2 class="h2_contato">Entre em contato!</h2>
+        <p>Nos envie suas dicas...</p>
+        <p>Sua ajuda é muito importante!</p>
+        <form>
+          <div class="w50">
+            <div class="form-group">
+              <input type="text" name="nome" placeholder="Nome" />
+            </div>
+          </div>
+
+          <div class="w50">
+            <div class="form-group">
+              <input type="text" name="nome" placeholder="Sobrenome" />
+            </div>
+          </div>
+
+          <div class="w50">
+            <div class="form-group">
+              <input type="text" name="nome" placeholder="Telefone" />
+            </div>
+          </div>
+
+          <div class="w100">
+            <div class="form-group">
+              <textarea placeholder="Mensagem"></textarea>
+            </div>
+          </div>
+
+          <div class="w100">
+            <div class="contato_button">
+              <button class="button_contato">ENVIAR</button>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </form>
+      </div>
+      <!--container-->
+    </section>
+
+    <hr />
+    <!-----------------------------FOOTER-------------------------------->
+
     <footer>
-      <p>Desenvolvido por Taís Defante</p>
+      <p>Copyright © 2024 Tais Defante.</p>
+      <p>Todos os direitos reservados.</p>
       <a href="https://github.com/taisadefante"
         ><i class="fa-brands fa-github"></i
       ></a>
@@ -105,13 +156,39 @@
         ><i class="fa-brands fa-linkedin"></i
       ></a>
     </footer>
+
+    <!-------------------------------------------------------------->
+
+    <a id="backToTopButton" class="" href="#header-id">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="70"
+        height="70"
+        viewBox="0 0 24 24"
+        style="fill: blue"
+      >
+        <path
+          d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm7-14 5 5h-4v5h-2v-5H7l5-5z"
+        ></path>
+      </svg>
+    </a>
   </body>
 
   <script src="./script.js" defer></script>
   <script>
     function clickMenu() {
       if (itens.style.display == "block") {
-        s;
+        itens.style.display = "none";
+      } else {
+        itens.style.display = "block";
+      }
+    }
+  </script>
+
+  <script src="./script.js" defer></script>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == "block") {
         itens.style.display = "none";
       } else {
         itens.style.display = "block";

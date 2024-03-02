@@ -101,62 +101,21 @@ menu > ul > li > a {
   color: white;
 }
 
-/*****************************link******************************/
-.link {
-  text-align: center;
+/*****************************link-home******************************/
+
+.link-home {
+  margin-bottom: 40px;
 }
 
-.fa-brands {
-  font-size: 50px;
+.link-home a {
   color: blue;
-}
-
-h2 {
-  text-align: center;
-  padding: 20px;
-  color: blue;
-}
-
-a i {
-  padding: 30px;
+  padding: 10px;
+  border: solid white 4px;
   display: inline-block;
+  margin: 5px;
 }
 
-a i:hover {
+.link-home a:hover {
   color: white;
-}
-
-/*****************************home******************************/
-
-.secao-com-texto {
-  padding: 20px;
-  text-align: center;
-  clear: both;
-}
-
-.secao-com-texto img {
-  width: 250px;
-  height: 230px;
-  border-radius: 20px;
-}
-
-.secao-com-texto h2 {
-  font-size: 45px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: blue;
-}
-
-.secao-com-texto p {
-  font-size: 18px;
-  width: 900px;
-  margin: 0 auto;
-
-  text-align: justify;
-  text-indent: 40px;
-}
-
-.secao-com-texto.tecnologia p {
-  font-size: 28px;
-  width: 480px;
+  border: solid blue 4px;
 }

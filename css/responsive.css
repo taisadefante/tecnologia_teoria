@@ -1,0 +1,27 @@
+@media screen and (min-width: 0px) and (max-width: 440px) {
+  .btn-contato {
+    display: none;
+  }
+
+  .w50 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  i#burguer {
+    display: none;
+  }
+
+  menu {
+    display: block;
+  }
+
+  menu > ul {
+    display: inline-block;
+    align-items: center;
+  }
+  menu > ul > li {
+    display: inline-block;
+  }
+}

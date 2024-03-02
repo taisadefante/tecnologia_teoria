@@ -101,68 +101,28 @@ menu > ul > li > a {
   color: white;
 }
 
-/***************************home*************************/
-.home {
-  background: url(./img/tecnologia.jpg) center center no-repeat;
-  background-size: cover;
-  height: 400px;
+/*****************************link******************************/
+.link {
+  text-align: center;
 }
 
-.link-home {
+.fa-brands {
+  font-size: 70px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+  color: blue;
+}
+
+a i {
+  padding: 30px;
   display: inline-block;
 }
 
-/*****************************link******************************/
-
-.link-home {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 30%;
-}
-
-.link-home a {
-  color: blue;
-  padding: 20px;
-  border: solid white 4px;
-}
-
-.link-home a:hover {
+a i:hover {
   color: white;
-}
-
-/*****************************tecnologia******************************/
-
-.secao-com-texto {
-  padding: 50px;
-  text-align: center;
-  clear: both;
-}
-
-.secao-com-texto img {
-  width: 170px;
-  height: 170px;
-  margin-bottom: 20px;
-  border-radius: 20px;
-}
-
-.secao-com-texto h2 {
-  font-size: 45px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: blue;
-}
-
-.secao-com-texto p {
-  font-size: 18px;
-  width: 800px;
-  margin: 0 auto;
-  text-align: justify;
-  text-indent: 40px;
-}
-
-.secao-com-texto.tecnologia p {
-  font-size: 28px;
-  width: 480px;
 }
 
 /*****************************footer******************************/
