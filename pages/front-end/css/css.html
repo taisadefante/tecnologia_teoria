@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-< lang="pt-br">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css.css" />
-    <link rel="stylesheet" href="../../../css/diversos.css" />
+    <link rel="stylesheet" href="./html.css" />
+    <link rel="stylesheet" href="../../../css/style2.css" />
     <link rel="stylesheet" href="../../../css/responsive.css" />
 
     <link
@@ -42,7 +42,7 @@
           <ul>
             <li><a class="link-header" href="../../../index.html">Home</a></li>
             <li>
-              <a class="link-header" href="../../front-end//front-end.html"
+              <a class="link-header" href="../../front-end/front-end.html"
                 >Front-End</a
               >
             </li>
@@ -65,64 +65,89 @@
       </div>
     </header>
 
-  <!-----------------------------------------Link-------------------------------->
-  <section class="link">
-    <hr />
-    <h2>FRONT END</h2>
-    <a href="../html/html.html"><i class="fa-brands fa-html5"></i></a>
-    <a href="../css/css.html"><i class="fa-brands fa-css3-alt"></i></a>
-    <a href="./js.html"><i class="fa-brands fa-js"></i></a>
-    <a href="../react/react.html"><i class="fa-brands fa-react"></i></a>
-    <a href="../typescript/typescript.html"><i>TYPESCRIPT</i></a>
-    <a href="../bootstrap/bootstrap.html"
-      ><i class="fa-brands fa-bootstrap"></i
-    ></a>
-    <a href="./vite/vite.html"><i>VITE</i></a>
+    <!-----------------------------------------ESTRUTURA-------------------------------->
+    <section class="link">
+      <i class="fa-brands fa-css3-alt"></i>
+      <h2>CSS</h2>
+    </section>
 
+    <!-----------------------------------------home-------------------------------->
+    <section class="link-home">
+      <div>
+        <a href="#borda">BORDA</a>
+        <a href="#cores">CORES</a>
+        <a href="#display">DISPLAY</a>
+        <a href="#float">FLOAT</a>
+        <a href="#position">POSITION</a>
+        <a href="#reset">RESET</a>
+        <a href="#responsividade">RESPONSIVEL</a>
+      </div>
+    </section>
     <hr />
-  </section>
 
+    <!------------------------------borda------------------------------------------->
+    <section id="borda">
+      <h2>BORDA</h2>
+    </section>
+
+    <!--------------------------------cores----------------------------------------->
+    <section id="cores">
+      <h2>CORES</h2>
+    </section>
+
+    <!------------------------------display------------------------------------------->
+    <section id="display">
+      <h2>DISPLAY</h2>
+    </section>
+
+    <!---------------------------------float---------------------------------------->
+    <section id="float">
+      <h2>FLOAT</h2>
+    </section>
+
+    <!--------------------------------position----------------------------------------->
+    <section id="position">
+      <h2>POSITION</h2>
+    </section>
+
+    <!--------------------------------reset----------------------------------------->
+    <section id="reset">
+      <h2>RESET</h2>
+    </section>
+
+    <!--------------------------------responsividade----------------------------------------->
+    <section id="responsividade">
+      <h2>RESPONSIVIDADE</h2>
+    </section>
     <!-----------------------------------------FOOTER-------------------------------->
 
-  <footer>
-    <p>Desenvolvido por Taís Defante</p>
-    <a href="https://github.com/taisadefante"
-      ><i class="fa-brands fa-github"></i
-    ></a>
-    <a href="https://www.linkedin.com/in/tais-defante/"
-      ><i class="fa-brands fa-linkedin"></i
-    ></a>
-  </footer>
+    <footer>
+      <p>Desenvolvido por Taís Defante</p>
+      <a href="https://github.com/taisadefante"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/tais-defante/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+    </footer>
 
-   <!-------------------------------------------------------------->
+    <!-------------------------------------------------------------->
 
-   <a id="backToTopButton" class="" href="#header-id">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="70"
-      height="70"
-      viewBox="0 0 24 24"
-      style="fill: blue"
-    >
-      <path
-        d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm7-14 5 5h-4v5h-2v-5H7l5-5z"
-      ></path>
-    </svg>
-  </a>
+    <a id="backToTopButton" class="" href="#header-id">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="70"
+        height="70"
+        viewBox="0 0 24 24"
+        style="fill: blue"
+      >
+        <path
+          d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm7-14 5 5h-4v5h-2v-5H7l5-5z"
+        ></path>
+      </svg>
+    </a>
+  </body>
 
-</body>
-
-<script src="./script.js" defer></script>
-  <script>
-    function clickMenu() {
-      if (itens.style.display == "block") {
-        itens.style.display = "none";
-      } else {
-        itens.style.display = "block";
-      }
-    }
-  </script>
-  
   <script src="./script.js" defer></script>
   <script>
     function clickMenu() {
@@ -134,7 +159,16 @@
     }
   </script>
 
-
+  <script src="./script.js" defer></script>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == "block") {
+        itens.style.display = "none";
+      } else {
+        itens.style.display = "block";
+      }
+    }
+  </script>
 
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"

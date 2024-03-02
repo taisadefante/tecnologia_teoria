@@ -127,6 +127,27 @@ a i:hover {
   color: white;
 }
 
+/*****************************link-home******************************/
+
+.link-home {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.link-home a {
+  color: blue;
+  padding: 10px;
+  border: solid white 4px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 0 20px 0 20px;
+}
+
+.link-home a:hover {
+  color: white;
+  border: solid blue 4px;
+}
+
 /*****************************footer******************************/
 footer {
   text-align: center;

@@ -100,22 +100,3 @@ menu > ul > li > a {
 .a-contato:hover {
   color: white;
 }
-
-/*****************************link-home******************************/
-
-.link-home {
-  margin-bottom: 40px;
-}
-
-.link-home a {
-  color: blue;
-  padding: 10px;
-  border: solid white 4px;
-  display: inline-block;
-  margin: 5px;
-}
-
-.link-home a:hover {
-  color: white;
-  border: solid blue 4px;
-}
