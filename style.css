@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:ital,wght@0,300;1,100&display=swap");
+
+/*************************ESTILO GERAL***************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Dm-sans", sans-serif;
+}
+
+body {
+  display: block;
+  padding: 0 10px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(221, 218, 218);
+  color: white;
+}
+
+/***************************MENU**********************************/
+
+header {
+  padding: 10px;
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 20px;
+  padding: 1px;
+}
+
+i#burguer {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+i#burguer:hover {
+  background-color: blue;
+  color: black;
+}
+
+menu {
+  display: none;
+}
+
+menu > ul {
+  list-style-type: none;
+}
+
+menu > ul > li > a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.link-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.link-header:hover {
+  color: blue;
+}
+
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: blue;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-contato button:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.a-contato {
+  color: black;
+}
+
+.a-contato:hover {
+  color: white;
+}
+
+/***************************home*************************/
+.home {
+  background: url(./img/tecnologia.jpg) center center no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.link-home {
+  display: inline-block;
+}
+
+/*****************************link******************************/
+
+.link-home {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 30%;
+}
+
+.link-home a {
+  color: blue;
+  padding: 20px;
+  border: solid white 4px;
+}
+
+.link-home a:hover {
+  color: white;
+}
+
+/*****************************tecnologia******************************/
+
+.secao-com-texto {
+  padding: 50px;
+  text-align: center;
+  clear: both;
+}
+
+.secao-com-texto img {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.secao-com-texto h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.secao-com-texto p {
+  font-size: 18px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.secao-com-texto.tecnologia p {
+  font-size: 28px;
+  width: 480px;
+}
+
+/*****************************footer******************************/
+footer {
+  text-align: center;
+}
+footer p {
+  text-align: center;
+  padding: 10px;
+}
+
+footer .fa-brands {
+  font-size: 20px;
+  padding: 10px;
+}
+
+footer a i:hover {
+  color: blue;
+}
+
+@media screen and (min-width: 0px) and (max-width: 440px) {
+  .btn-contato {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  i#burguer {
+    display: none;
+  }
+
+  menu {
+    display: block;
+  }
+
+  menu > ul {
+    display: inline-block;
+    align-items: center;
+  }
+  menu > ul > li {
+    display: inline-block;
+  }
+}

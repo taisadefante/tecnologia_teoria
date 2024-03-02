@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./back-end.css" />
+    <link rel="stylesheet" href="./css/responsivel.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Tais Defante</title>
+  </head>
+  <body onresize="mudouTamanho()">
+    <!-------------------------MENU--------------------------------------------->
+
+    <header id="header-id">
+      <div class="interface">
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+        <menu class="menu-desktop" id="itens">
+          <ul>
+            <li><a class="link-header" href="../../index.html">Home</a></li>
+            <li>
+              <a class="link-header" href="../front-end/front-end.html"
+                >Front-End</a
+              >
+            </li>
+            <li><a class="link-header" href="./back-end.html">Back-End</a></li>
+            <li>
+              <a class="link-header" href="../projetos/projetos.html"
+                >Projetos</a
+              >
+            </li>
+          </ul>
+        </menu>
+
+        <div class="btn-contato">
+          <button><a class="a-contato" href="#contact">Contato</a></button>
+        </div>
+      </div>
+    </header>
+  </body>
+
+  <!-----------------------------------------Link-------------------------------->
+  <section class="link">
+    <hr />
+    <h2>BACK END</h2>
+    <a href="./pagesl"><i class="fa-brands fa-node"></i></a>
+    <a href="./pagesl"><i class="fa-brands fa-python"></i></a>
+    <a href="./pagesl"><i class="fa-brands fa-java"></i></a>
+
+    <hr />
+  </section>
+
+  <footer>
+    <p>Desenvolvido por Taís Defante</p>
+    <a href="https://github.com/taisadefante"
+      ><i class="fa-brands fa-github"></i
+    ></a>
+    <a href="https://www.linkedin.com/in/tais-defante/"
+      ><i class="fa-brands fa-linkedin"></i
+    ></a>
+  </footer>
+
+  <script src="./script.js" defer></script>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == "block") {
+        itens.style.display = "none";
+      } else {
+        itens.style.display = "block";
+      }
+    }
+  </script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+    integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+</html>
