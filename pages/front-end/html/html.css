@@ -114,6 +114,7 @@ menu > ul > li > a {
   color: rgb(94, 91, 91);
   text-align: justify;
   margin: 10px;
+  max-width: 1000px;
 }
 
 #estrutura img {
