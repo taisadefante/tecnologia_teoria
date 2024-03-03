@@ -9,27 +9,6 @@
   display: inline-block;
 }
 
-/*****************************link-home******************************/
-
-.link-home {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 30%;
-}
-
-.link-home a {
-  color: blue;
-  padding: 20px;
-  border: solid white 4px;
-  display: inline-block;
-  margin: 10px;
-}
-
-.link-home a:hover {
-  color: white;
-  border: solid blue 4px;
-}
-
 /*****************************tecnologia******************************/
 
 .secao-com-texto {
@@ -149,29 +128,3 @@ p {
   text-align: center;
   padding: 20px;
 }
-
-@media screen and (min-width: 0px) and (max-width: 440px) {
-  .btn-contato {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  i#burguer {
-    display: none;
-  }
-
-  menu {
-    display: block;
-  }
-
-  menu > ul {
-    display: inline-block;
-    align-items: center;
-  }
-  menu > ul > li {
-    display: inline-block;
-  }
-}
-
-/***********************************************************/

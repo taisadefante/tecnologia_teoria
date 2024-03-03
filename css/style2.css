@@ -79,7 +79,7 @@ menu > ul > li > a {
 }
 
 .btn-contato button {
-  padding: 10px 40px;
+  padding: 10px 20px;
   font-size: 18px;
   font-weight: 700;
   background-color: blue;
@@ -107,17 +107,28 @@ menu > ul > li > a {
   text-align: center;
 }
 
-.fa-brands {
-  font-size: 50px;
-  color: blue;
-}
-
+.fa-brands,
 .fa-regular {
   font-size: 50px;
   color: blue;
 }
 
+.fa-solid {
+  font-size: 20px;
+  color: blue;
+  padding: 10px 15px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  color: blue;
+  text-shadow: 10px 10px 7px #808080;
+}
+
 h2 {
+  font-size: 30px;
   text-align: center;
   padding: 10px;
   color: blue;
@@ -135,7 +146,8 @@ a i:hover {
 /*****************************link-home******************************/
 
 .link-home {
-  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -152,6 +164,43 @@ a i:hover {
   color: white;
   border: solid blue 4px;
 }
+
+/*****************************home******************************/
+
+.secao-com-texto {
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+.secao-com-texto img {
+  width: 250px;
+  height: 230px;
+  border-radius: 20px;
+}
+
+.secao-com-texto h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.secao-com-texto p {
+  font-size: 18px;
+  width: 800px;
+  margin: 20px auto;
+
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.secao-com-texto.tecnologia p {
+  font-size: 28px;
+  width: 480px;
+}
+
+/**********************************/
 
 /*****************************footer******************************/
 footer {
