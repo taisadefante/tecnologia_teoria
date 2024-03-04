@@ -1,102 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:ital,wght@0,300;1,100&display=swap");
-
-/*************************ESTILO GERAL***************************************/
-
-* {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-family: "Dm-sans", sans-serif;
-}
-
-body {
+/**********************************tabelas***************************/
+#borda {
   display: block;
-  padding: 0 10px;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(221, 218, 218);
-  color: white;
-}
-
-/***************************MENU**********************************/
-
-header {
-  padding: 10px;
-}
-
-header > .interface {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  border-radius: 20px;
-  padding: 1px;
-}
-
-i#burguer {
-  display: block;
+  max-width: 700px;
   text-align: center;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
+  margin: auto;
 }
-
-i#burguer:hover {
-  background-color: blue;
-  color: black;
-}
-
-menu {
-  display: none;
-}
-
-menu > ul {
-  list-style-type: none;
-}
-
-menu > ul > li > a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-}
-
-.link-header {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  color: white;
-  cursor: pointer;
-  margin-right: 30px;
-}
-
-.link-header:hover {
-  color: blue;
-}
-
-.btn-contato button {
-  padding: 10px 40px;
-  font-size: 18px;
-  font-weight: 700;
-  background-color: blue;
+#borda img {
+  width: 600px;
   border-radius: 30px;
-  cursor: pointer;
-  border: none;
-}
-
-.btn-contato button:hover {
-  color: white;
-  transform: scale(1.1);
-}
-
-.a-contato {
-  color: black;
-}
-
-.a-contato:hover {
-  color: white;
+  padding: 10px;
 }

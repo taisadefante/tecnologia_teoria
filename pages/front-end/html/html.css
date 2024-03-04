@@ -122,3 +122,16 @@ menu > ul > li > a {
   height: 400px;
   padding: 10px;
 }
+
+/**********************************tabelas***************************/
+#tabelas {
+  display: block;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+}
+#tabelas img {
+  width: 600px;
+  border-radius: 30px;
+  padding: 10px;
+}
