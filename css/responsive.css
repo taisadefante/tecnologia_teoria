@@ -11,6 +11,10 @@
     display: block;
     max-width: 100%;
   }
+
+  #estrutura img {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 768px) {
