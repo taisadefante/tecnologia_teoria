@@ -6,6 +6,11 @@
   .w50 {
     width: 100%;
   }
+
+  #listas {
+    display: block;
+    max-width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -23,5 +28,10 @@
   }
   menu > ul > li {
     display: inline-block;
+  }
+
+  #listas {
+    display: block;
+    max-width: 100%;
   }
 }
