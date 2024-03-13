@@ -125,6 +125,7 @@ h1 {
   padding: 10px;
   color: blue;
   text-shadow: 10px 10px 7px #808080;
+  text-align: center;
 }
 
 h2 {
@@ -134,12 +135,12 @@ h2 {
   color: blue;
 }
 
-a i {
+.link a i {
   padding: 20px;
   display: inline-block;
 }
 
-a i:hover {
+.link a i:hover {
   color: white;
 }
 
@@ -149,6 +150,7 @@ a i:hover {
   margin-top: 40px;
   margin-bottom: 20px;
   text-align: center;
+  margin: auto;
 }
 
 .link-home a {
@@ -218,6 +220,11 @@ a i:hover {
   width: 480px;
 }
 
+/*****************************************/
+.img-grande {
+  width: 70%;
+}
+
 /**********************************audio***************************/
 
 #audio {
@@ -279,7 +286,7 @@ a i:hover {
   padding: 10px;
 }
 
-/**********************************teoria - tabelas***************************/
+/***********************************************************/
 #borda {
   display: block;
   max-width: 700px;
@@ -292,6 +299,18 @@ a i:hover {
   padding: 10px;
 }
 
+/***********************************************************/
+#margin {
+  display: block;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+}
+#margin img {
+  width: 70%;
+  border-radius: 30px;
+  padding: 10px;
+}
 /**********************************projetos***************************/
 
 .card-projetos {
@@ -472,9 +491,9 @@ footer a i:hover {
 #backToTopButton {
   position: fixed;
   bottom: 1rem;
-  right: 2.5rem;
+  right: 0.1rem;
   width: 8rem;
-  height: 8rem;
+  height: 4rem;
 }
 
 #backToTopButton.show {
